@@ -69,9 +69,8 @@
 ## Assignment
 
 ### [ass_1.c](./ass_1.c)
-
-
 ![ASS_1](./Week_2_Labs_ASS/ASS_1.jpg)
-
+![ASS_1](./ass_1.jpg)
 ### [ass_2.c](./ass_2.c)
 ![ASS_2](./Week_2_Labs_ASS/ASS_2.jpg)
+![ASS_1](./ass_2.jpg)
