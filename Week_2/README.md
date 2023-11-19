@@ -66,3 +66,9 @@
 ![lab_2_3_05_2.c](./lab_2_3_05_2.jpg)
 
 
+## Assignment
+### [ass_1.c](./ass_1.c)
+![ASS_1](./ASS_1.jpg)
+
+### [ass_2.c](./ass_2.c)
+![ASS_2](./ASS_2.jpg)
