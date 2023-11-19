@@ -17,23 +17,23 @@
 - ### Labs.
 - ### Assignment for the next week.
 - ### [Link](./Week_1)
-### Week 2:
+## Week 2:
 - ### Control flow statements (condition branching, looping, and jumping)
 - ### Labs.
 - ### Assignment for the next week.
 - ### [Link](./Week_2)
-### Week 3:
+## Week 3:
 - ### Memory layout of C programs
 - ### Functions
 - ### Variables scope and lifetime.
 - ### Arrays
 - ### Labs.
 - ### Assignment for the next week.
-### Week 4:
+## Week 4:
 - ### Pointers in C.
 - ### Labs.
 - ### Assignment for the next week.
-### Week 5:
+## Week 5:
 - ### Data modifiers in C ( sign, size, storage, etc).
 - ### Constant and Volatile keywords
 - ### Typedef
@@ -41,7 +41,7 @@
 - ### Structures in C
 - ### Labs.
 - ### Assignment.
-### Week 6:
+## Week 6:
 - ### Bit-fields.
 - ### Unions.
 - ### Enumerations.
@@ -49,17 +49,17 @@
 - ### Memory management in C.
 - ### Labs.
 - ### Assignment.
-### Week 7:
+## Week 7:
 - ### Software Engineering intro. (SDLCs)
 - ### Algorithms (searching and sorting).
 - ### Data Structures (Stack- queue- Circular Queue).
 - ### Assignment.
-### Week 8:
+## Week 8:
 - ### Data Structures (Singly linked lists)
 - ### Data Structures (Doubly linked lists)
 - ### Labs
 - ### Final Project announcement.
-### Week 9:
+## Week 9:
 - ### Embedded system concepts
 - ### Computer architecture.
 - ### Memory types.
@@ -70,7 +70,7 @@
 - ### Software layering. (MCAL, HAL, service layer..etc)
 - ### SOLID principles.
 - ### Embedded C building Process.
-### Week 10:
+## Week 10:
 - ### Flashing techniques
 - ### Bootloader.
 - ### Makefiles
