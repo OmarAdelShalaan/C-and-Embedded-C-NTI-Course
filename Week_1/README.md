@@ -44,10 +44,11 @@
 
 ## Assignment
 
-### [ass_1.c](./ASS_1.c)
-![ASS_1](./Week_1_Labs_ASS/ASS_1.jpg)
-![ASS_1](./ASS_1_1.jpg)
 
+![ASS_1](./Week_1_Labs_ASS/ASS_1.jpg)
+
+### [ass_1.c](./ASS_1.c)
+![ASS_1](./ASS_1_1.jpg)
 
 ### [ass_2.c](./ASS_2.c)
 ![ASS_2](./ASS_1_2.jpg)
