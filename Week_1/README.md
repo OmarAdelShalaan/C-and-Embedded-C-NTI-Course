@@ -28,7 +28,7 @@
 ### [lab_1_4.c](./lab_1_4.c)
 ![lab_1_4.c](./lab_1_4.jpg)
 
-![Lab_2_1](./Week_1_Labs_ASS/Lab_2_2.jpg)
+![Lab_2_1](./Week_1_Labs_ASS/Lab_2_1.jpg)
 
 ### [lab_2_1_1.c](./lab_2_1_1.c)
 ![lab_2_1_1.c](./lab_2_1_1.jpg)
