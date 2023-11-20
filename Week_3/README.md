@@ -28,17 +28,6 @@
 
 ![Lab_2_1](./Week_3_Labs_ASS/Lab_2_1.jpg)
 
-### [lab_1_2_1.c](./lab_1_2_1.c)
-![lab_1_2_1.c](./lab_1_2_1.jpg)
-
-### [lab_1_2_2.c](./lab_1_2_2.c)
-![lab_1_2_2.c](./lab_1_2_2.jpg)
-
-### [lab_1_2_3.c](./lab_1_2_3.c)
-![lab_1_2_3.c](./lab_1_2_3.jpg)
-
-![Lab_2_1](./Week_3_Labs_ASS/Lab_2_2.jpg)
-
 ### [lab_2_1_1.c](./lab_2_1_1.c)
 ![lab_2_1_1.c](./lab_2_1_1.jpg)
 
