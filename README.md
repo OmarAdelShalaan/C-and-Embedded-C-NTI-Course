@@ -29,6 +29,7 @@
 -   Arrays
 -   Labs.
 -   Assignment for the next week.
+-   [Link](./Week_3)
 ## Week 4:
 -   Pointers in C.
 -   Labs.
@@ -41,6 +42,7 @@
 -   Structures in C
 -   Labs.
 -   Assignment.
+-   [Link](./Week_5)
 ## Week 6:
 -   Bit-fields.
 -   Unions.
