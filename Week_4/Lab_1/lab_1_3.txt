@@ -1,0 +1,7 @@
+int (*p)(int(*)[2], int(*)(void));
+
+1.p that is pointer to Fun
+2.fun that takes two Arguments
+    2.1.First Arguments  pointer to arr of two intger element
+    2.2.Second Arguments pointer to Fun that take void and return int
+3.return int    
