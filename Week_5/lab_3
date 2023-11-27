@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+typedef struct{
+    char name[20];
+    float grades;
+    int id;
+}Student_t;
+
+
+int main()
+{
+    Student_t arrStudent[10];
+}
