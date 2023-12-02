@@ -21,6 +21,7 @@ void str_rev(char *str)
 int main()
 {
     char str[] = "omar adel shalaan";
+    printf("%s\n", str);
     str_rev(str);
     printf("%s\n", str);
     return 0;

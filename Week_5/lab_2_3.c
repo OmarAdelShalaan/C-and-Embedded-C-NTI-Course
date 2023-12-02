@@ -22,7 +22,7 @@ int countWord(char *str)
 int main()
 {
     char str[] = "Omar  Adel  shalaan";
-    
+    printf("%s\n", str);
     printf("%d\n", countWord(str));
     return 0;
 }
