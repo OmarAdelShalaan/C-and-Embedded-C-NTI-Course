@@ -21,6 +21,7 @@
 ![bit_manipulation.c](./bit_manipulation.jpg)
 
 ![Lab_3](./Week_6_Labs_ASS/Lab_3.jpg)
+
 ### [Fibonacci_series.c](./Fibonacci_series.c)
 ![Fibonacci_series.c](./Fibonacci_series.jpg)
 
