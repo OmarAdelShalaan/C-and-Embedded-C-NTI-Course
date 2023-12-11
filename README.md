@@ -1,6 +1,6 @@
 # C and Embedded C NTI Course 
 
-## C & Embedded C course Roadmap
+## C & Embedded C course Roadmap (120H)
 
 ## Week 1:
 -   Introduction to embedded systems.
@@ -52,6 +52,7 @@
 -   Memory management in C.
 -   Labs.
 -   Assignment.
+-   [Link](./Week_6)
 ## Week 7:
 -   Software Engineering intro. (SDLCs)
 -   Algorithms (searching and sorting).
