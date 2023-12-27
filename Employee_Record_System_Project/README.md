@@ -17,14 +17,20 @@
 
 ### Functios 
 ![Options](./photos/options.jpg)
+
 ![add](./photos/add.jpg)
+
 ![delete](./photos/delete.jpg)
+
 ![delete](./photos/delete_2.jpg)
+
 ![modify](./photos/modify.jpg)
+
 ![view_all](./photos/view_all.jpg)
+
 ![make](./photos/make.jpg)
+
 ![make_clean_all](./photos/FindStudent_FName.jpg)
-![UpdataStudent_IDNum](./photos/UpdataStudent_IDNum.jpg)
 
 
 ### Try Project 
