@@ -8,7 +8,7 @@
 #ifndef APP_H_
 #define APP_H_
 
-
+#include <conio.h>
 #include "LinkedList.h"
 #include "DataEmployee.h"
 
@@ -21,7 +21,7 @@ typedef enum
 	ViewALL,
 	Exit
 }EChoose_t;
-void MonitorDisplay();
+int MonitorDisplay();
 void APP_Init();
 void APP_Start();
 

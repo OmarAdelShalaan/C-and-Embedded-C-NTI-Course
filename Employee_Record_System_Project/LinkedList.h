@@ -25,6 +25,7 @@ typedef struct
 
 
 SLinkedList_t* createEmployeeLinkedList();
+void deleteEmployeeLinkedList(SLinkedList_t *list);
 Node * createEmployeeNode(SDataEmployee_t data);
 void AddToEmployeeLinkedList(SLinkedList_t * list, SDataEmployee_t data);
 void DeleteFromEmployeeLinkedList(SLinkedList_t * list,int ID);

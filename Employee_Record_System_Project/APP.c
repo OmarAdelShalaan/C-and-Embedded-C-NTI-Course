@@ -4,6 +4,7 @@
  *  Created on: Dec 14, 2023
  *      Author: Omar
  */
+#include <conio.h>
 #include "LinkedList.h"
 #include "DataEmployee.h"
 #include "APP.h"
@@ -13,9 +14,21 @@ void chooseOption(EChoose_t choose);
 int GetEmployeeID();
 //-------------------------------------------------------------------//
 SLinkedList_t *list = NULL;
+SDataEmployee_t Arrdata[]={
+{"Omar Adel"        ,   25  ,  9000   , "Commu Engineer"    	, 4584},
+{"Ali Ahmed"        ,   45  ,  14000  , "Head Engineer"        	, 3115},
+{"Mohamed Ahmed"    ,   60  ,  30000  , "Manager Engineer"     	, 842},
+{"Sarah Johnson"    ,   33  ,  11000  , "Data Analyst"     		, 2654},
+{"Daniel Patel"     ,   40  ,  17000  , "Manager"     			, 8193},
+{"Emily Miller"     ,   28  ,  9500   , "Embedded Engineer"    	, 3785},
+{"Jacob Brown"      ,   50  ,  22000  , "Embedded Head"  		, 5421}
+};
 //-------------------------------------------------------------------//
-void MonitorDisplay()
+int MonitorDisplay()
 {
+	int choose = 0;
+	//getchar();
+    //system("clear");
 	printf("----------------------------------------------------------\n");
 	printf("1.Add a new employee data.\n");
 	printf("2.Delete the data of an employee.\n");
@@ -24,19 +37,27 @@ void MonitorDisplay()
 	printf("5.View all the employee's data.\n");
 	printf("6.Exit.\n");
 	printf("Choose Your Option Number: ");
+	fflush(stdin);
+	scanf("%d", &choose);
+	//getchar();
+    //system("clear");
+	return choose;
 }
 void APP_Init()
 {
 	list = createEmployeeLinkedList();
+	for(int i = 0; i < 7; i++)
+	{
+		AddToEmployeeLinkedList(list, Arrdata[i]);
+	}
 }
 void APP_Start()
 {
 	int choose = 0;
+	
 	while (1)
 	{
-		MonitorDisplay();
-		fflush(stdin);
-		scanf("%d", &choose);
+		choose = MonitorDisplay();
 		chooseOption(choose);
 	}
 }
@@ -82,7 +103,7 @@ void chooseOption(EChoose_t choose)
 		DisplayEmployeeLinkedList(list);
 		break;
 	case Exit:
-		// delete list
+		deleteEmployeeLinkedList(list);
 		printf("Exit\n");
 		exit(1);
 		break;
@@ -117,6 +138,9 @@ void DisplayEmployeeInfo(SDataEmployee_t *data)
 	printf("Enter Your title: %s\n", data->title);
 	printf("Enter Your ID: %d\n", data->ID);
 	printf("*************************************************\n");
+	printf("Enter Any Char to Continue....");
+	fflush(stdin);
+	getchar();
 }
 int GetEmployeeID()
 {

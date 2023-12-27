@@ -12,19 +12,21 @@
 - [APP.c](./APP.c)
 - [LinkedList.h](./LinkedList.h)
 - [LinkedList.c](./LinkedList.c)  
-- [DataEmployee.h](./DataEmployee.h) 
+- [DataEmployee.h](./DataEmployee.h)
+- [makefile](./makefile) 
 
 ### Functios 
-![Functios](./photos/Fun.jpg)
-![add_Student_Manually](./photos/add_Student_Manually.jpg)
-![add_Student_from_text_file](./photos/add_Student_from_text_file.jpg)
-![count_of_student](./photos/count_of_student.jpg)
-![delete_student](./photos/delete_student.jpg)
-![Find_the_Student_Details_by_ID_Number](./photos/Find_the_Student_Details_by_ID_Number.jpg)
-![FindStudent_FName](./photos/FindStudent_FName.jpg)
+![Options](./photos/options.jpg)
+![add](./photos/add.jpg)
+![delete](./photos/delete.jpg)
+![delete](./photos/delete_2.jpg)
+![modify](./photos/modify.jpg)
+![view_all](./photos/view_all.jpg)
+![make](./photos/make.jpg)
+![make_clean_all](./photos/FindStudent_FName.jpg)
 ![UpdataStudent_IDNum](./photos/UpdataStudent_IDNum.jpg)
 
 
 ### Try Project 
 - [Employee_Record_System.exe](./Employee_Record_System.exe)
-		- don't forget download data.txt file 
+		

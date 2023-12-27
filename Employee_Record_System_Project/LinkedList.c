@@ -56,14 +56,25 @@ void AddToEmployeeLinkedList(SLinkedList_t * list, SDataEmployee_t data)
 }
 void DeleteFromEmployeeLinkedList(SLinkedList_t * list, int ID )
 {
+	printf("delete\n");
 	Node * tempNode = list->head;
+	Node* FreeNode = NULL;
+	if(list->head->data.ID == ID)
+	{
+		FreeNode = list->head;
+		list->head = list->head->next;
+		free(FreeNode);
+		printf("delete\n");
+		return;
+	}
 	while(tempNode->next != NULL)
 	{
 		if(tempNode->next->data.ID == ID)
 		{
-			Node* FreeNode = tempNode->next;
+			FreeNode = tempNode->next;
 			tempNode->next = tempNode->next->next;
 			free(FreeNode);
+			printf("delete\n");
 			return;
 		}
 		tempNode = tempNode->next;
@@ -85,9 +96,10 @@ Node * FindElementFromEmployeeLinkedList(SLinkedList_t * list, int ID)
 void DisplayEmployeeLinkedList(SLinkedList_t * list)
 {
 	Node * tempNode = list->head;
+	char dummy;
 	while(tempNode != NULL)
 	{
-		printf("*************************************************\n");
+		//printf("*************************************************\n");
 		printf("Employee Name: %s\n", 		tempNode->data.name);
 		printf("Employee age: %d\n", 		tempNode->data.age);
 		printf("Employee salary: %.2f\n",	tempNode->data.salary);
@@ -96,6 +108,8 @@ void DisplayEmployeeLinkedList(SLinkedList_t * list)
 		printf("*************************************************\n");
 		tempNode = tempNode->next;
 	}
+	//printf("Enter Any Char to Continue....");
+	//getchar();
 }
 int FindIDEmployeeLinkedList(SLinkedList_t * list, int id)
 {
@@ -114,36 +128,15 @@ int FindIDEmployeeLinkedList(SLinkedList_t * list, int id)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+void deleteEmployeeLinkedList(SLinkedList_t *list)
+{
+	Node *temp = NULL;
+	while(list->head != NULL)
+	{
+		temp = list->head;
+		list->head = list->head->next;
+		free(temp);
+	}
+	list = NULL; 
+	printf("Done Delete List\n");
+}
