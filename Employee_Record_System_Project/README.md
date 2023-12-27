@@ -16,21 +16,22 @@
 - [makefile](./makefile) 
 
 ### Functios 
+#### Choose Options
 ![Options](./photos/options.jpg)
-
+#### Add Employee
 ![add](./photos/add.jpg)
-
+#### Delete Employee
 ![delete](./photos/delete.jpg)
 
 ![delete](./photos/delete_2.jpg)
-
+#### Modify Employee
 ![modify](./photos/modify.jpg)
-
+#### View All Employees
 ![view_all](./photos/view_all.jpg)
-
+#### make
 ![make](./photos/make.jpg)
-
-![make_clean_all](./photos/FindStudent_FName.jpg)
+#### make clean_all
+![make_clean_all](./photos/make_clean_all.jpg)
 
 
 ### Try Project 
